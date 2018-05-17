@@ -4,7 +4,7 @@
 		if(isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
 
 		   	 // change to your domain ex : mail@domain.com
-	   		$from = "noreply@luvetheme.com";
+	   		$from = "kate.seth@icloud.com";
 
 			if(@$_POST['fullname'] == '')
 			{
@@ -19,7 +19,7 @@
 			if(@$_POST['fullname'] != '' && @$_POST['email'] != '')
 			{
 				// change to your email address
-		        $to = "youtmail@mail.com";
+		        $to = "kate.seth@icloud.com";
 
 				// mail subject
 		        $subject = "[RSVP] Reserved for ".@$_POST['fullname'] ;
